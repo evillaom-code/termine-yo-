@@ -1,0 +1,106 @@
+
+html {
+  height: 100%;
+}
+
+ /* fondo */
+body {
+  background: radial-gradient(circle at top, #0f172a, #020617);  /* fondo con degradado circular oscuro*/
+  color: #e5e7eb; /* color del texto original */
+  line-height: 1.6; /* espacio entre lineas de texto*/
+}
+ /* menú a la derecha */
+nav {
+  background: linear-gradient(90deg, #020617, #0f172a, #020617); /* fondo degradado horizontal del menu */
+  border-bottom: 1px solid #1f2933; /* linea debajo de menu */
+  box-shadow: 0 0 10px rgba(241, 45, 153, 0.89); /* sombra brillante*/
+  padding: 15px 30px; /* espacio interno */
+}
+ /* menú a la derecha */
+nav ul {
+  list-style: none; /* quita los puntos de la lista */
+  display: flex; /* hace que los elementos se acomoden en fila y puedas controlarlos fácilmente.x */
+  justify-content: flex-end; /* menú a la derecha */
+  gap: 25px;/* espacio entre opciones */
+}
+nav a {
+  text-decoration: none;/* quita el subrayado */
+  color: #e5e7eb;/* color de los enlaces */
+  font-weight: 500;/* grosor del texto*/
+  position: relative;/*  */
+  transition: 0.3s;/*animacion suave al cambiar algo */
+}
+/*Cambia color al pasar el mouse*/
+nav a:hover {
+  color: #f8ecae;
+}
+
+
+.titulo {
+  font-size: 3rem;/* tamaño grande*/
+  margin-bottom: 20px;/* espacio debajo*/
+  color: rgba(255, 0, 0, 0.767);
+  text-shadow: 0 0 12px rgba(255,236,193,0.4);/* brillo alrededor del texto */
+}
+.letra {
+    color: black;
+}
+
+.img-boton {
+  width: 300px;
+  cursor: pointer;/* mano al pasar el mouse*/
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+.img-boton:hover {
+  transform: scale(1.05);
+  opacity: 0.8;
+}
+
+.brillo-rojo {
+  color: red;
+  text-shadow: 0 0 5px red;
+}
+
+
+
+
+.contenedor{
+    text-align: center;/* centra texto */
+    padding: 20px;/* espacio interno */
+    background-color: #d6c7a1;/* mfondo beige*/
+
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(20, 1, 1);
+    margin: 40px auto;  
+    max-width: 600px;
+    
+    opacity: 0.9;
+
+   
+
+  padding: 40px;
+  clip-path: polygon(
+    3% 2%, 97% 1%,
+    99% 8%, 96% 95%,
+    92% 99%, 8% 98%,
+    1% 90%, 2% 10%
+  );
+
+
+
+}
+
+
+
+
+.harry{
+    width: 300px;
+    height: 300px;
+}
+
+.narnia{
+    width: 300px;
+    height: 300px;
+}
+
